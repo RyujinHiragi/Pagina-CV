@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ryu</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://cdn.discordapp.com/attachments/1199447840712310826/1234891031569498152/image.png?ex=66326165&is=66310fe5&hm=b26c82f87a871427544328f67e7e7c540e4a91a0f1201306cd26e9ebf74a9888&" alt="">
+            </div>
+            <h1>Juan Esteban Sanchez</h1>
+            <h2>Experto en Ciberseguridad</h2>
+            <div class="redes">
+                <a href="https://twitter.com/HiragiRyujin"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/RyujinHiragi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/ryu.x__/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Esteban Sanchez.</span> Desde que era solo un estudiante de noveno grado, me atrapó la fascinante intersección entre la robótica y la programación. Todo comenzó con un modesto proyecto de robótica en la escuela, y desde ese momento, mi curiosidad por este mundo creció exponencialmente. Cada línea de código, cada algoritmo, se convirtieron en puertas hacia un universo de posibilidades. A medida que profundizaba en mis investigaciones, descubrí la diversidad de lenguajes de programación que existían, y no pude resistir la tentación de aprender más. Para cuando llegué al décimo grado, ya había dominado cuatro de ellos.
+            Pero mi sed de conocimiento era insaciable. Decidí seguir mi propio camino de aprendizaje, dedicando horas interminables a estudiar y practicar. Con el tiempo, mi repertorio de lenguajes de programación se expandió a un asombroso total de dieciséis. Cada nuevo lenguaje que dominaba era como una ventana abierta a un mundo nuevo y emocionante, lleno de desafíos y oportunidades.
+            Hoy en día, mi pasión por la programación sigue ardiendo con la misma intensidad que cuando era un estudiante curioso. Cada línea de código que escribo es una expresión de mi creatividad y mi dedicación a este apasionante campo. Aunque mi viaje apenas está comenzando, estoy emocionado por descubrir hacia dónde me llevará mi amor por la programación y la tecnología en el futuro.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            28-02-2006
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            57 305 3127226
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ryuijnbusiness@gmail.com    
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>CEO</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <a href="Juegos.html" class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </a>
+                        <a href="pagina_musica.html" class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </a>
+                        <a href="pagina_viajar.html" class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </a>  
+                        <a href="pagina_fotos.html" class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </a>
+                    </div>                        <span>Ciberseguridad</span>
+                        <div class="barra-skill">
+                            <div class="progreso Ciberseguridad">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Botanica</span>
+                        <div class="barra-skill">
+                            <div class="progreso Botanica">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación media</h3>
+                    <div class="item izq">
+                        <h4>        </h4>
+                        <span class="casa">Colegio San Lucas</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>El Colegio San Lucas, obra social de la parroquia San Lucas, es una institución con enfoque cristiano católico, dedicada a la formación integral de los educandos.
+                            Desde el año 1979, guiados por los valores del Evangelio, fomentamos el amor, el respeto por la vida, los derechos humanos y la excelencia académica, junto con una actitud de apertura y tolerancia. Nuestra formación busca desarrollar el pensamiento crítico, la creatividad y la responsabilidad social.
+                            Trabajamos en colaboración con las familias para proporcionar una educación sólida y cualificada, enriquecida por una espiritualidad viva. Aspiramos a formar ciudadanos comprometidos con la transformación positiva de la sociedad.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Superior</h4>
+                        <span class="casa">Universidad De medellin</span>
+                        <span class="fecha">2024 - </span>
+                        <p>Estoy estudiando Ingeniería en Sistemas en la Universidad de Medellín, enfocándome en disciplinas como algoritmos, programación orientada a objetos y desarrollo web. Participando activamente en proyectos de investigación y desarrollo, busco adquirir habilidades prácticas para diseñar y mantener software robusto. Mi objetivo es graduarme con un sólido conocimiento técnico y estar preparado para enfrentar los desafíos en constante evolución del campo de la ingeniería de sistemas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Administrador de servidores en AIX</h4>
+                        <span class="casa">Exito Colombia</span>
+                        <p>Trabajé como administrador de servidores especializado en el sistema operativo AIX para el Grupo Éxito en Colombia. Mi labor consistía en gestionar la infraestructura de servidores que sustentaba las operaciones críticas del negocio, como sistemas de punto de venta y gestión de inventario. Además, implementé medidas de seguridad para proteger los datos de la empresa y garantizar la continuidad de las operaciones.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Free Lancer</span>
+                        <span class="fecha"></span>
+                        <p>Como Full Stack Developer, me encargué de desarrollar tanto el Front-end como el Back-end de aplicaciones web y móviles. Desde la creación de interfaces de usuario atractivas hasta la implementación de la lógica del servidor y la gestión de bases de datos, estuve involucrado en todos los aspectos del proceso de desarrollo. Trabajé en colaboración con equipos multidisciplinarios para crear soluciones innovadoras y satisfacer las necesidades del cliente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ciberseguridad</h4>
+                        <span class="casa">IBM Security</span>
+                        <span class="fecha"></span>
+                        <p>Como administradora de ciberseguridad, mi labor consistió en proteger los sistemas de información de la empresa contra amenazas cibernéticas. Implementé medidas de seguridad, gestioné incidentes y garanticé el cumplimiento de regulaciones de privacidad de datos. Trabajé en colaboración con equipos técnicos y de gestión para mitigar riesgos y mantener la integridad de los sistemas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Medellin, Colombia, San Lucas
+                            </li>
+                                <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ryuijnbusiness@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://twitter.com/HiragiRyujin"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/RyujinHiragi"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/ryu.x__/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
